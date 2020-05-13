@@ -1,0 +1,144 @@
+body{
+	background: white;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+.kafes{
+
+	position: relative;
+	width: 400px;
+	height: 500px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	cursor: pointer;
+	
+}
+
+.hoverBG
+{ 	margin: 6% auto;
+    z-index: 1;
+    position: absolute;
+    background-color: #00000061;
+    width: 380px;
+	height: 450px;
+	opacity: 0;
+	border-radius: 0.5%;
+}
+
+
+.grid{
+	position        : absolute;
+	width           : 100%;
+	z-index: 0;
+	height          : 100%;
+	background-image:url("../img/denizli.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	transition: filter 1s;
+	
+}
+.gridBlur
+{
+	
+	filter: blur(3px);
+}
+
+.text
+{
+	position      : absolute;
+	width         : 90%;
+	height        : auto;
+	text-align    : center;
+	z-index       : 1;
+	color         : white;
+	font-weight   : bold;
+	display       : -webkit-flex;
+	display       : -moz-flex;
+	display       : -ms-flex;
+	display       : -o-flex;
+	display       : flex;
+	text-align    : center;
+	flex-direction: column;
+	align-self    : center;
+	top: 25%;	
+}
+.text div p
+{
+	display      : inline-block;
+	border-radius: 15px;
+	padding      :5px 15px;
+}
+
+.yerContent p
+{
+	/* background-color: #00000075; */
+	font-size: 15px;
+	position: relative;
+	
+	opacity: 0;
+	transition: opacity 1s ease;
+}
+
+
+.yerHeader p{
+	/* background-color: #00000075; */    text-shadow: 1px 2px 8px #10101085;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px 15px;
+	font-size: 50px;
+}
+.clear
+{
+	clear: both;
+}
+.bottomInfo{
+		color           : white;
+		position        : absolute;
+		z-index         : 1;
+		bottom          : 3px;
+		background-color:  #00000075;
+		width           : 90%;
+		height          : auto;
+		border-radius   : 5px;
+}
+.bottomInfo div img
+{
+	width : 32px;
+	height: 32px;
+
+}
+.infoContent
+{
+	display       : -webkit-flex;
+	display       : -moz-flex;
+	display       : -ms-flex;
+	display       : -o-flex;
+	display       : flex;
+	flex-direction: column;
+	
+}
+.infoContent *
+{
+	margin: 0 auto;
+}
+
+.readmore
+{
+	border-color: #fff;
+	color: #fff;
+	background: none !important;
+	display: none;
+	/* visibility: hidden; */
+	margin: 0 auto;
+	
+}
